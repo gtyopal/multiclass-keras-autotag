@@ -1,0 +1,13 @@
+{   "dataset_path":"./data/en_community_content_clean.csv",
+    "input_dataset_path":"./data/en_community_content.csv",
+    "weights_path":"./model/en_community_fasttext.h5",
+    "maxlen":1000,
+    "batch_size":32,
+    "nb_epoch":3,
+    "embedding_length":100,
+    "gpuid":0,
+    "model_type":"cnnfasttext",
+    "ischar":1,
+    "ngram_range":2,
+    "split_rate":0.1
+}
